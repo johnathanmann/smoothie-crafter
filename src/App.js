@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+    HashRouter,
+    Routes,
+    Route
+  } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+  import { useState } from "react";
+import { Context } from "./assets/Context";
+  
+  import Homepage from "./pages/Homepage";
+  import Generator from "./pages/Generator";
+  
+  export default function App() {
+    const [context, setContext] = useState();
+    return (
+      
+      <Context.Provider value={[context, setContext]}>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/generator" element={<Generator />} />
+        </Routes>
+      </HashRouter>
+      </Context.Provider>
+    );
+  }
+  
