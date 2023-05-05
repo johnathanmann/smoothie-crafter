@@ -1,12 +1,11 @@
 import "../styles/generator.css";
-import React, { useContext } from "react";
-import { Context } from "../assets/Context";
+import React from "react";
+
 export default function Generator(){
-    const [context, setContext] = useContext(Context);
-    console.log(context)
+    const fruit = localStorage.getItem("fruitNumber")
     return(
         <div>
-            <h1>{context.fruitAmount}</h1>
+            <h1>{fruit}</h1>
         </div>
     )
 }
