@@ -5,8 +5,8 @@ import "../styles/styles.css";
 export default function Homepage(){
     const navigate = useNavigate();
 
-    function handleFruit(e) {
-      localStorage.setItem("fruitNumber", e );
+    function handleProduce(e) {
+      localStorage.setItem("produceNumber", e );
     }
 
     const handleSubmit = (e) => {
@@ -14,10 +14,10 @@ export default function Homepage(){
       }
     return(
         <div>
-            <button onClick={() => handleFruit(1)}>1</button>
-            <button onClick={() => handleFruit(2)}>2</button>
-            <button onClick={() => handleFruit(3)}>3</button>
-            <button onClick={() => handleFruit(4)}>4</button>
+            <button onClick={() => handleProduce(10)}>1</button>
+            <button onClick={() => handleProduce(9)}>2</button>
+            <button onClick={() => handleProduce(8)}>3</button>
+            <button onClick={() => handleProduce(7)}>4</button>
             <button onClick={handleSubmit}>Go</button>
         </div>
     )
