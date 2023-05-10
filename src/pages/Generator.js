@@ -14,10 +14,21 @@ export default function Generator(){
     special = _.shuffle(specialJson);
     special = special.slice(specialAmount);
     console.log(special)
+    let measurment;
+    if(produceAmount == 9){
+        measurment = 4
+    }
+    if(produceAmount == 8){
+        measurment = 3
+    }
+    if(produceAmount == 7){
+        measurment = 2
+    }
+    console.log(measurment)
     return(
         <div>
             {produce.map((e, index)=>{
-            return <h1>{produce[index].name}</h1>
+            return <h1>1/{measurment} cups {produce[index].name}</h1>
             })}
             {special.map((e, index)=>{
             return <h1>{special[index].name}</h1>
