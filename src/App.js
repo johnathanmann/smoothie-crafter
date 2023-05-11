@@ -3,7 +3,7 @@ import {
     Routes,
     Route
   } from "react-router-dom";
-
+  import "./styles/styles.css";
   import Homepage from "./pages/Homepage";
   import Generator from "./pages/Generator";
   
