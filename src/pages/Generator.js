@@ -60,7 +60,7 @@ export default function Generator(){
             })}
             {special.map((e, index)=>{
             return <div><h1>{special[index].name}</h1>
-            <img src={icons[special[index].image]} alt="fruit"/></div>
+            <img src={icons[special[index].img]} alt="fruit"/></div>
             })}
         </div>
     )

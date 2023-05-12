@@ -1,22 +1,40 @@
 [
     {
-        "name":"chopped mint"
+        "name":"chopped mint",
+        "img": "mint",
+        "alt": "Strawberry icon"
     },{
-        "name":"minced ginger"
+        "name":"minced ginger",
+        "img": "ginger",
+        "alt": "Minced ginger icon"
     },{
-        "name":"2 tsp cocoa powder"
+        "name":"2 tsp cocoa powder",
+        "img": "cocoa",
+        "alt": "Chocolate bar icon"
     },{
-        "name":"1/2 tsp cinnamon"
+        "name":"1/2 tsp cinnamon",
+        "img": "cinnamon",
+        "alt": "Cinnamon stick icon"
     },{
-        "name":"2 tbsp peanut butter"
+        "name":"2 tbsp peanut butter",
+        "img": "peanut",
+        "alt": "Peanut icon"
     },{
-        "name":"2 tbsp chia seeds"
+        "name":"2 tbsp chia seeds",
+        "img": "chia",
+        "alt": "Chia seed icon"
     },{
-        "name":"1/4 cups oats"
+        "name":"1/4 cups oats",
+        "img": "oats",
+        "alt": "Oats icon"
     },{
-        "name":"1 tbsp matcha powder"
+        "name":"1 tbsp matcha powder",
+        "img": "matcha",
+        "alt": "Matcha powder icon"
     },{
-        "name":"1 tbsp apple cider vinegar"
+        "name":"1 tbsp apple cider vinegar",
+        "img": "vinegar",
+        "alt": "Apple cider vinegar icon"
     }
     
 ]

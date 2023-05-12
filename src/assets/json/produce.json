@@ -1,29 +1,42 @@
 [
     {
-        "name":"strawberry"
+        "name":"strawberry",
+        "alt": "Strawberry icon"
     },{
-        "name":"mango"
+        "name":"mango",
+        "alt": "Mango icon"
     },{
-        "name":"pineapple"
+        "name":"pineapple",
+        "alt": "Pineapple icon"
     },{
-        "name":"banana"
+        "name":"banana",
+        "alt": "Banana icon"
     },{
-        "name":"blueberry"
+        "name":"blueberry",
+        "alt": "Blueberry icon"
     },{
-        "name":"raspberry"
+        "name":"raspberry",
+        "alt": "Raspberry icon"
     },{
-        "name":"apple"
+        "name":"apple",
+        "alt": "Apple icon"
     },{
-        "name":"watermelon"
+        "name":"watermelon",
+        "alt": "Watermelon icon"
     },{
-        "name":"peach"
+        "name":"peach",
+        "alt": "Peach icon"
     },{
-        "name":"acai"
+        "name":"acai",
+        "alt": "Acai icon"
     },{
-        "name":"spinich"
+        "name":"spinich",
+        "alt": "Spinich icon"
     },{
-        "name":"kale"
+        "name":"kale",
+        "alt": "Kale icon"
     },{
-        "name":"avocado"
+        "name":"avocado",
+        "alt": "Avocado icon"
     }
 ]
