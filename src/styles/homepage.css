@@ -1,10 +1,20 @@
 button {
     all: unset;
-    height: 44px;
+    height: 45px;
     width: 45px;
     margin: 20px !important;
+    font-size: 25px;
 }
 
 .number-btn{
-    padding: 10px;
+    padding: 15px 25px;
 }
+
+.active{
+    transition: 2s;
+    background-image: url(../assets/imgs/scribble.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+  }
+  
