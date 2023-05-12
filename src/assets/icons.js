@@ -15,12 +15,11 @@ import oats from "../assets/imgs/oats.PNG"
 import peach from "../assets/imgs/peach.PNG"
 import peanut from "../assets/imgs/peanut.PNG"
 import pineapple from "../assets/imgs/pineapple.PNG"
-import raspberry from "../assets/imgs/rasperry.PNG"
+import raspberry from "../assets/imgs/raspberry.PNG"
 import spinich from "../assets/imgs/spinich.PNG"
 import strawberry from "../assets/imgs/strawberry.PNG"
 import vinegar from "../assets/imgs/vinegar.PNG"
 import watermelon from "../assets/imgs/watermelon.PNG"
 
-var icons = {acai, apple, avocado, banana, blueberry, chia,cinnamon, cocoa, ginger, kale, mango, matcha, mint, oats, peach, peanut, pineapple, raspberry, spinich, strawberry, vinegar, watermelon}
+let icons = {acai, apple, avocado, banana, blueberry, chia,cinnamon, cocoa, ginger, kale, mango, matcha, mint, oats, peach, peanut, pineapple, raspberry, spinich, strawberry, vinegar, watermelon}
 
-module.exports = icons;
