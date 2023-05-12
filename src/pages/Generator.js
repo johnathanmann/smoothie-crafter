@@ -2,7 +2,9 @@ import "../styles/generator.css";
 import React from "react";
 import produceJson from "../assets/json/produce.json"
 import specialJson from "../assets/json/special.json"
+import icons from "../assets/icons";
 var _ = require('lodash');
+
 
 export default function Generator(){
     const produceAmount = localStorage.getItem("produceNumber");
@@ -31,7 +33,8 @@ export default function Generator(){
             return <h1>1/{measurment} cups {produce[index].name}</h1>
             })}
             {special.map((e, index)=>{
-            return <h1>{special[index].name}</h1>
+            return <div><h1>{special[index].name}</h1>
+            <img src={icons[[index].name]} alt={projects[index].alt}/></div>
             })}
         </div>
     )
