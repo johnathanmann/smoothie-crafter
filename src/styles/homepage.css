@@ -1,0 +1,10 @@
+button {
+    all: unset;
+    height: 44px;
+    width: 45px;
+    margin: 20px !important;
+}
+
+.number-btn{
+    padding: 10px;
+}
