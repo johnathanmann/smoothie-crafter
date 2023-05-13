@@ -8,13 +8,11 @@ button {
 
 .number-btn{
     padding: 15px 25px;
+    color: #b7b7b7;
 }
 
 .active{
-    transition: 2s;
-    background-image: url(../assets/imgs/scribble.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    transition: 1s;
+    color: #000;
   }
   

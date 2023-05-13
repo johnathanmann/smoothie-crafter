@@ -27,7 +27,7 @@ export default function Homepage(){
     return(
       <div className="container center">
           <main>
-           <button onClick={() => handleProduce(11, 10, 9)}> <RoughNotation strokeWidth="2"  type="circle" color="#000" animate="true"show="true" padding="10" ><span className="number-btn " id="11" >2</span></RoughNotation></button>
+           <button onClick={() => handleProduce(11, 10, 9)}> <RoughNotation strokeWidth="2"  type="circle" animate="true"show="true" padding="10" ><span className="number-btn " id="11" >2</span></RoughNotation></button>
            <button onClick={() => handleProduce(10, 11, 9)}> <RoughNotation strokeWidth="2"  type="circle" color="#000" animate="true"show="true" padding="10"><span className="number-btn " id="10">3</span></RoughNotation></button>
            <button onClick={() => handleProduce(9, 10, 11)}> <RoughNotation strokeWidth="2"  type="circle" color="#000" animate="true"show="true" padding="10"><span className="number-btn " id="9">4</span></RoughNotation></button>
             <br />
