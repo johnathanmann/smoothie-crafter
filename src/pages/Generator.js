@@ -27,6 +27,7 @@ import watermelon from "../assets/imgs/watermelon.PNG"
 
 let icons = {acai, apple, avocado, banana, blueberry, chia,cinnamon, cocoa, ginger, kale, mango, matcha, mint, oats, peach, peanut, pineapple, raspberry, spinich, strawberry, vinegar, watermelon}
 
+
 var _ = require('lodash');
 
 
@@ -40,14 +41,15 @@ export default function Generator(){
     special = _.shuffle(specialJson);
     special = special.slice(specialAmount);
     console.log(special)
-    let measurment;
+    var measurment;
+    console.log(produceAmount)
     if(produceAmount == 9){
         measurment = 4
     }
-    if(produceAmount == 8){
+    if(produceAmount == 10){
         measurment = 3
     }
-    if(produceAmount == 7){
+    if(produceAmount == 11){
         measurment = 2
     }
     console.log(measurment)
