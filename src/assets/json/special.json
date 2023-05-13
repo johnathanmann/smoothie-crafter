@@ -35,6 +35,10 @@
         "name":"1 tbsp apple cider vinegar",
         "img": "vinegar",
         "alt": "Apple cider vinegar icon"
+    },{
+        "name":"1 scoop of protein powder",
+        "img": "protein",
+        "alt": "Protien powder icon"
     }
     
 ]

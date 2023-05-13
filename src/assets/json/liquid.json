@@ -1,0 +1,35 @@
+[
+    {
+        "name":"milk",
+        "img": "milk",
+        "alt": "Milk icon"
+    },{
+        "name":"Water",
+        "img": "water",
+        "alt": "Water icon"
+    },{
+        "name":"chocolate milk",
+        "img": "chocolate",
+        "alt": "Chocolate milk icon"
+    }, {
+        "name":"almond milk",
+        "img": "almond",
+        "alt": "Almond milk icon"
+    }, {
+        "name":"cashew milk",
+        "img": "cashew",
+        "alt": "Cashew milk icon"
+    }, {
+        "name":"oat milk",
+        "img": "oat-milk",
+        "alt": "Almond milk icon"
+    }, {
+        "name":"Coconut milk",
+        "img": "coconut",
+        "alt": "Coconut icon"
+    }, {
+        "name":"Coconut water",
+        "img": "coconut",
+        "alt": "Coconut icon"
+    }
+]
