@@ -21,5 +21,4 @@ import strawberry from "../assets/imgs/strawberry.PNG"
 import vinegar from "../assets/imgs/vinegar.PNG"
 import watermelon from "../assets/imgs/watermelon.PNG"
 
-let icons = {acai, apple, avocado, banana, blueberry, chia,cinnamon, cocoa, ginger, kale, mango, matcha, mint, oats, peach, peanut, pineapple, raspberry, spinich, strawberry, vinegar, watermelon}
-
+export let icons = {acai, apple, avocado, banana, blueberry, chia,cinnamon, cocoa, ginger, kale, mango, matcha, mint, oats, peach, peanut, pineapple, raspberry, spinich, strawberry, vinegar, watermelon}

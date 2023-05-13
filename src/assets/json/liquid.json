@@ -31,5 +31,9 @@
         "name":"coconut water",
         "img": "coconut",
         "alt": "Coconut icon"
+    }, {
+        "name":"soy milk",
+        "img": "soy",
+        "alt": "Soy milk icon"
     }
 ]
