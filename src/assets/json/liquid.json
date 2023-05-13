@@ -4,7 +4,7 @@
         "img": "milk",
         "alt": "Milk icon"
     },{
-        "name":"Water",
+        "name":"water",
         "img": "water",
         "alt": "Water icon"
     },{
@@ -24,11 +24,11 @@
         "img": "oat-milk",
         "alt": "Almond milk icon"
     }, {
-        "name":"Coconut milk",
+        "name":"coconut milk",
         "img": "coconut",
         "alt": "Coconut icon"
     }, {
-        "name":"Coconut water",
+        "name":"coconut water",
         "img": "coconut",
         "alt": "Coconut icon"
     }
