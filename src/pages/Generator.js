@@ -38,13 +38,14 @@ export default function Generator(){
         <div>
             {produce.map((e, index)=>{
             return <div><h1>1/{measurment} cups {produce[index].name}</h1>
-            <img src={icons[produce[index].name]} alt="fruit"/></div>
+            <img src={icons[produce[index].name]} alt={special[index].alt}/></div>
             })}
             {special.map((e, index)=>{
             return <div><h1>{special[index].name}</h1>
-            <img src={icons[special[index].img]} alt="fruit"/></div>
+            <img src={icons[special[index].img]} alt={special[index].alt}/></div>
             })}
             <h1>1 cup ice</h1>
+            <img src={icons[liquid[0].img]} alt={liquid[0].alt}/>
             <h1>1 cup {liquid[0].name}</h1>
         </div>
     )

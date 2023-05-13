@@ -20,5 +20,14 @@ import spinich from "../assets/imgs/spinich.PNG"
 import strawberry from "../assets/imgs/strawberry.PNG"
 import vinegar from "../assets/imgs/vinegar.PNG"
 import watermelon from "../assets/imgs/watermelon.PNG"
+import almond from "../assets/imgs/almond.PNG"
+import cashew from "../assets/imgs/cashew.PNG"
+import chocolate from "../assets/imgs/chocolate.PNG"
+import coconutMilk from "../assets/imgs/coconut-milk.PNG"
+import milk from "../assets/imgs/milk.PNG"
+import oatMilk from "../assets/imgs/oat-milk.PNG"
+import protein from "../assets/imgs/protein.PNG"
+import soy from "../assets/imgs/soy.PNG"
+import water from "../assets/imgs/water.PNG"
 
-export let icons = {acai, apple, avocado, banana, blueberry, chia,cinnamon, cocoa, ginger, kale, mango, matcha, mint, oats, peach, peanut, pineapple, raspberry, spinich, strawberry, vinegar, watermelon}
+export let icons = {acai, apple, avocado, banana, blueberry, chia,cinnamon, cocoa, ginger, kale, mango, matcha, mint, oats, peach, peanut, pineapple, raspberry, spinich, strawberry, vinegar, watermelon, almond, chocolate, cashew, coconutMilk, milk, oatMilk, protein, soy, water}

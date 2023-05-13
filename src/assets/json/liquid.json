@@ -21,15 +21,15 @@
         "alt": "Cashew milk icon"
     }, {
         "name":"oat milk",
-        "img": "oat-milk",
+        "img": "oatMilk",
         "alt": "Almond milk icon"
     }, {
         "name":"coconut milk",
-        "img": "coconut",
+        "img": "coconutMilk",
         "alt": "Coconut icon"
     }, {
         "name":"coconut water",
-        "img": "coconut",
+        "img": "coconut-water",
         "alt": "Coconut icon"
     }, {
         "name":"soy milk",
