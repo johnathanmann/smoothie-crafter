@@ -1,0 +1,29 @@
+.row :nth-child(2){
+    display: inline-block;
+}
+
+.row{
+    width: 30vw;
+}
+
+.row h2{
+    vertical-align: middle;
+    padding: 0px 15px;
+    font-family: Handwritten;
+}
+
+.row img{
+    height: 50px;
+    vertical-align: middle;
+}
+
+#generator{
+    display: inline-flex;
+    margin: 5vh 20vw 0vh 20vw;
+    height: 100vh;
+}
+
+#smoothie img{
+    height: 80vh;
+    display: flex;
+}

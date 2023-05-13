@@ -1,10 +1,15 @@
 @font-face {
     font-family: Handwritten;
+    src: url(../assets/fonts/Please\ write\ me\ a\ song.ttf);
+}
+
+@font-face {
+    font-family: Handwritten-Bold;
     src: url(../assets/fonts/Margarine.otf);
 }
 
 html{
-    font-family: Handwritten;
+    font-family: Handwritten-Bold;
 }
 
 .container {

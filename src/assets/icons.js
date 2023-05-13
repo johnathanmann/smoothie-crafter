@@ -24,10 +24,11 @@ import almond from "../assets/imgs/almond.PNG"
 import cashew from "../assets/imgs/cashew.PNG"
 import chocolate from "../assets/imgs/chocolate.PNG"
 import coconutMilk from "../assets/imgs/coconut-milk.PNG"
+import coconut from "../assets/imgs/coconut.PNG"
 import milk from "../assets/imgs/milk.PNG"
 import oatMilk from "../assets/imgs/oat-milk.PNG"
 import protein from "../assets/imgs/protein.PNG"
 import soy from "../assets/imgs/soy.PNG"
 import water from "../assets/imgs/water.PNG"
 
-export let icons = {acai, apple, avocado, banana, blueberry, chia,cinnamon, cocoa, ginger, kale, mango, matcha, mint, oats, peach, peanut, pineapple, raspberry, spinich, strawberry, vinegar, watermelon, almond, chocolate, cashew, coconutMilk, milk, oatMilk, protein, soy, water}
+export let icons = {acai, apple, avocado, banana, blueberry, chia,cinnamon, cocoa, ginger, kale, mango, matcha, mint, oats, peach, peanut, pineapple, raspberry, spinich, strawberry, vinegar, watermelon, almond, chocolate, coconut, cashew, coconutMilk, milk, oatMilk, protein, soy, water}
