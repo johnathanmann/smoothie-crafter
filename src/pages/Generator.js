@@ -6,6 +6,9 @@ import liquidJson from "../assets/json/liquid.json";
 import {icons} from "../assets/icons";
 import ice from "../assets/imgs/ice.PNG";
 import smoothie from "../assets/imgs/smoothie.PNG";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 var _ = require('lodash');
 
@@ -36,32 +39,36 @@ export default function Generator(){
     console.log(measurment)
     console.log(icons)
     return(
-        <div id="generator">
-            <div id="ingredients">
+        <Container id="generator">
+            <Row>
+                <Col className="ingredients">
+                <div className="ingredient">
+                    <img src={ice} alt="Ice icon" />
+                <h2>1 cup ice</h2>
+                </div>
                 {produce.map((e, index)=>{
-                return <div className="row">
+                return <div className="ingredient">
                     <img src={icons[produce[index].name]} alt={produce[index].alt}/>
                     <h2>1/{measurment} cups {produce[index].name}</h2>
                     </div>
                 })}
+                </Col>
+                <Col className="ingredients">
+                <div className="ingredient">
+                <img src={icons[liquid[0].img]} alt={liquid[0].alt}/>
+                <h2>1 cup {liquid[0].name}</h2>
+                </div>
                 {special.map((e, index)=>{
-                return <div className="row">
+                return <div className="ingredient">
                     <img src={icons[special[index].img]} alt={special[index].alt}/>
                     <h2>{special[index].name}</h2>
                     </div>
                 })}
-                <div className="row">
-                    <img src={ice} alt="Ice icon" />
-                <h2>1 cup ice</h2>
-                </div>
-                <div className="row">
-                <img src={icons[liquid[0].img]} alt={liquid[0].alt}/>
-                <h2>1 cup {liquid[0].name}</h2>
-                </div>
-            </div>
-            <div id="smoothie">
-                <img src={smoothie} alt="Smoothie drawing"/>
-            </div>
-        </div>
+                </Col>
+                <Col>
+                    <img src={smoothie}/>
+                </Col>
+            </Row>
+        </Container>
     )
 }
