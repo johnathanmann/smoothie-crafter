@@ -1,42 +1,55 @@
 [
     {
         "name":"strawberry",
-        "alt": "Strawberry icon"
+        "alt": "Strawberry icon",
+        "color": "#D52C3A"
     },{
         "name":"mango",
-        "alt": "Mango icon"
+        "alt": "Mango icon",
+        "color": "#E6A63F"
     },{
         "name":"pineapple",
-        "alt": "Pineapple icon"
+        "alt": "Pineapple icon",
+        "color": "#FADC72"
     },{
         "name":"banana",
-        "alt": "Banana icon"
+        "alt": "Banana icon",
+        "color": "#F0D05C"
     },{
         "name":"blueberry",
-        "alt": "Blueberry icon"
+        "alt": "Blueberry icon",
+        "color": "#29428C"
     },{
         "name":"raspberry",
-        "alt": "Raspberry icon"
+        "alt": "Raspberry icon",
+        "color": "#BB1E58"
     },{
         "name":"apple",
-        "alt": "Apple icon"
+        "alt": "Apple icon",
+        "color": "#D1COAF"
     },{
         "name":"watermelon",
-        "alt": "Watermelon icon"
+        "alt": "Watermelon icon",
+        "color": "#D34D4D"
     },{
         "name":"peach",
-        "alt": "Peach icon"
+        "alt": "Peach icon",
+        "color": "#D66CFC"
     },{
         "name":"acai",
-        "alt": "Acai icon"
+        "alt": "Acai icon",
+        "color": "#4F2643"
     },{
         "name":"spinich",
-        "alt": "Spinich icon"
+        "alt": "Spinich icon",
+        "color": "#235637"
     },{
         "name":"kale",
-        "alt": "Kale icon"
+        "alt": "Kale icon",
+        "color": "#2A933B"
     },{
         "name":"avocado",
-        "alt": "Avocado icon"
+        "alt": "Avocado icon",
+        "color": "#45C75B"
     }
 ]

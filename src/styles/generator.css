@@ -6,17 +6,22 @@
     margin-top: 20px !important;
 }
 
+.ingredient{
+    margin-top: 10px;
+}
+
 .ingredient h2{
     vertical-align: middle;
-    padding: 0px 15px;
     font-family: Handwritten;
 }
 
 .ingredient img{
     height: 50px;
     vertical-align: middle;
+    padding-right: 10px;
 }
 
-img{
+#smoothie img{
     height: 50vh;
+    border: 10px solid #fff;
 }

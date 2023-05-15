@@ -12,32 +12,41 @@ import Col from 'react-bootstrap/Col';
 
 var _ = require('lodash');
 
+const produceAmount = localStorage.getItem("produceNumber");
+let produce = (produceJson);
+produce = _.shuffle(produceJson);
+produce = produce.slice(produceAmount);
+const specialAmount = localStorage.getItem("specialNumber");
+let special = (specialJson);
+special = _.shuffle(specialJson);
+special = special.slice(specialAmount);
+let liquid = (liquidJson);
+liquid = _.shuffle(liquidJson);
+liquid = liquid.slice(7);
+console.log(liquid)
+var measurment;
+var colors;
+console.log(produceAmount)
+if(produceAmount == 9){
+    measurment = 4
+    colors = [produce[0].color, produce[0].color, produce[0].color, produce[1].color, produce[2].color, produce[3].color]
+}
+if(produceAmount == 10){
+    measurment = 3
+    colors = [produce[0].color, produce[0].color, produce[0].color, produce[1].color, produce[2].color]
+}
+if(produceAmount == 11){
+    measurment = 2
+    colors = [produce[0].color, produce[0].color, produce[0].color, produce[1].color]
+}
+
+const styles = {
+    background: "linear-gradient("+ colors +")"
+}
+console.log(measurment)
+console.log(colors)
+
 export default function Generator(){
-    const produceAmount = localStorage.getItem("produceNumber");
-    let produce = (produceJson);
-    produce = _.shuffle(produceJson);
-    produce = produce.slice(produceAmount);
-    const specialAmount = localStorage.getItem("specialNumber");
-    let special = (specialJson);
-    special = _.shuffle(specialJson);
-    special = special.slice(specialAmount);
-    let liquid = (liquidJson);
-    liquid = _.shuffle(liquidJson);
-    liquid = liquid.slice(7);
-    console.log(liquid)
-    var measurment;
-    console.log(produceAmount)
-    if(produceAmount == 9){
-        measurment = 4
-    }
-    if(produceAmount == 10){
-        measurment = 3
-    }
-    if(produceAmount == 11){
-        measurment = 2
-    }
-    console.log(measurment)
-    console.log(icons)
     return(
         <Container id="generator">
             <Row>
@@ -65,8 +74,8 @@ export default function Generator(){
                     </div>
                 })}
                 </Col>
-                <Col>
-                    <img src={smoothie}/>
+                <Col id="smoothie">
+                    <img style={styles} src={smoothie}/>
                 </Col>
             </Row>
         </Container>
