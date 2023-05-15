@@ -40,13 +40,13 @@ if(produceAmount == 11){
     colors = [produce[0].color, produce[0].color, produce[0].color, produce[1].color]
 }
 
-const styles = {
-    background: "linear-gradient("+ colors +")"
-}
 console.log(measurment)
 console.log(colors)
 
 export default function Generator(){
+    const styles = {
+        background: "linear-gradient("+ colors +")"
+    }
     return(
         <Container id="generator">
             <Row>
