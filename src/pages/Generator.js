@@ -37,7 +37,7 @@ if(produceAmount == 10){
 }
 if(produceAmount == 11){
     measurment = 2
-    colors = [produce[0].color, produce[0].color, produce[0].color, produce[1].color]
+    colors = [produce[0].color, produce[0].color, produce[1].color]
 }
 
 console.log(measurment)
@@ -50,19 +50,19 @@ export default function Generator(){
     return(
         <Container id="generator">
             <Row>
-                <Col className="ingredients">
+                <Col md={6} lg={4} className="ingredients">
                 <div className="ingredient">
                     <img src={ice} alt="Ice icon" />
                 <h2>1 cup ice</h2>
                 </div>
                 {produce.map((e, index)=>{
-                return <div className="ingredient">
+                return <div className="ingredient pl-4">
                     <img src={icons[produce[index].name]} alt={produce[index].alt}/>
                     <h2>1/{measurment} cups {produce[index].name}</h2>
                     </div>
                 })}
                 </Col>
-                <Col className="ingredients">
+                <Col md={6} lg={4} className="ingredients pl-4">
                 <div className="ingredient">
                 <img src={icons[liquid[0].img]} alt={liquid[0].alt}/>
                 <h2>1 cup {liquid[0].name}</h2>
@@ -74,7 +74,7 @@ export default function Generator(){
                     </div>
                 })}
                 </Col>
-                <Col id="smoothie">
+                <Col lg={4} id="smoothie" className="text-center">
                     <img style={styles} src={smoothie}/>
                 </Col>
             </Row>

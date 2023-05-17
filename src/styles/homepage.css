@@ -14,5 +14,9 @@ button {
 .active{
     transition: 1s;
     color: #000;
-  }
+}
+
+h4{
+    font-family: Handwritten-Bold;
+}
   

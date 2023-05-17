@@ -17,5 +17,20 @@ html{
     flex-direction: column;   
     justify-content: center;   
     align-items: center; 
-    height: 100vh;
+    height: 90vh;
+}
+
+a, a:hover, a:active{
+    color: #000 !important;
+    all: unset;
+}
+
+.active{
+    all: unset;
+}
+
+#home h1{
+    text-decoration: none;
+    margin: 20px !important;
+    font-family: Handwritten-Bold;
 }
