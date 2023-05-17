@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/smoothie-crafter/static/css/main.51525859.css",
-    "main.js": "/smoothie-crafter/static/js/main.fc136b84.js",
+    "main.css": "/smoothie-crafter/static/css/main.870d8c09.css",
+    "main.js": "/smoothie-crafter/static/js/main.b2d64d62.js",
     "static/media/smoothie.PNG": "/smoothie-crafter/static/media/smoothie.a9097cf901e598d831d5.PNG",
     "static/media/Please write me a song.ttf": "/smoothie-crafter/static/media/Please write me a song.6653efb644f98ca73350.ttf",
     "static/media/Margarine.otf": "/smoothie-crafter/static/media/Margarine.34c3a11bc8e64bf4ff85.otf",
@@ -39,11 +39,11 @@
     "static/media/vinegar.PNG": "/smoothie-crafter/static/media/vinegar.f94e36eddfa95d9674ca.PNG",
     "static/media/milk.PNG": "/smoothie-crafter/static/media/milk.5a0b77448717d10cb7a6.PNG",
     "index.html": "/smoothie-crafter/index.html",
-    "main.51525859.css.map": "/smoothie-crafter/static/css/main.51525859.css.map",
-    "main.fc136b84.js.map": "/smoothie-crafter/static/js/main.fc136b84.js.map"
+    "main.870d8c09.css.map": "/smoothie-crafter/static/css/main.870d8c09.css.map",
+    "main.b2d64d62.js.map": "/smoothie-crafter/static/js/main.b2d64d62.js.map"
   },
   "entrypoints": [
-    "static/css/main.51525859.css",
-    "static/js/main.fc136b84.js"
+    "static/css/main.870d8c09.css",
+    "static/js/main.b2d64d62.js"
   ]
 }
