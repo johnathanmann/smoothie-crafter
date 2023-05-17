@@ -12,7 +12,7 @@ import {
   export default function App() {
     return (
       <HashRouter>
-        <NavLink to="/" id="home"><h1><RoughNotation strokeWidth="2"  type="underline" color="#000" animate="true"show="true" >Smoothie Generator</RoughNotation></h1></NavLink>
+        <NavLink to="/"><h1><RoughNotation strokeWidth="2"  type="underline" color="#000" animate="true"show="true" >Smoothie Generator</RoughNotation></h1></NavLink>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/generator" element={<Generator />} />

@@ -25,3 +25,10 @@
     height: 50vh;
     border: 10px solid #fff;
 }
+
+
+#generator button{
+    all: unset;
+    margin-top: 10px;
+    font-family: Handwritten-Bold;
+}

@@ -1,4 +1,4 @@
-button {
+#homepage button {
     all: unset;
     height: 45px;
     width: 45px;
@@ -23,3 +23,4 @@ h4{
 #generator{
     font-family: Handwritten-Bold;
 }
+

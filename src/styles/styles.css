@@ -20,17 +20,18 @@ html{
     height: 90vh;
 }
 
-a, a:hover, a:active{
+a, a:hover, a:active, a.active{
     color: #000 !important;
     all: unset;
+    text-decoration: none !important;
+    transition: none;
 }
 
-.active{
+.select{
     all: unset;
 }
 
-#home h1{
-    text-decoration: none;
+h1{
     margin: 20px !important;
     font-family: Handwritten-Bold;
 }

@@ -1,5 +1,8 @@
 import "../styles/generator.css";
+import "../styles/styles.css";
 import React from "react";
+import { NavLink } from "react-router-dom";
+import { RoughNotation } from "react-rough-notation";
 import produceJson from "../assets/json/produce.json";
 import specialJson from "../assets/json/special.json";
 import liquidJson from "../assets/json/liquid.json";
@@ -43,6 +46,10 @@ if(produceAmount == 11){
 console.log(measurment)
 console.log(colors)
 
+function regenerate() {
+    window.location.reload();
+}
+
 export default function Generator(){
     const styles = {
         background: "linear-gradient("+ colors +")"
@@ -78,6 +85,7 @@ export default function Generator(){
                     <img style={styles} src={smoothie}/>
                 </Col>
             </Row>
+            <Row className="text-center"><button onClick={() => regenerate()}><RoughNotation strokeWidth="2"  type="circle" color="#000" animate="true"show="true" padding={15}><h1>Regenerate</h1></RoughNotation></button></Row>
         </Container>
     )
 }

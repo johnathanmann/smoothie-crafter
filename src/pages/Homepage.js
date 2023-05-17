@@ -10,22 +10,22 @@ export default function Homepage(){
 
     function handleProduce(e, b, c1, c2) {
       localStorage.setItem("produceNumber", e );
-      document.getElementById(c1).classList.remove("active");
-      document.getElementById(c2).classList.remove("active");
-      document.getElementById(b).classList.add("active");
+      document.getElementById(c1).classList.remove("select");
+      document.getElementById(c2).classList.remove("select");
+      document.getElementById(b).classList.add("select");
     }
     function handleSpecial(e, b, c1, c2) {
       localStorage.setItem("specialNumber", e );
-      document.getElementById(c1).classList.remove("active");
-      document.getElementById(c2).classList.remove("active");
-      document.getElementById(b).classList.add("active");
+      document.getElementById(c1).classList.remove("select");
+      document.getElementById(c2).classList.remove("select");
+      document.getElementById(b).classList.add("select");
     }
 
     const handleSubmit = (e) => {
         navigate('/generator')
       }
     return(
-      <div className="container center">
+      <div className="container center" id="homepage">
           <main>
           <h4>Fruit Amount:</h4>
            <button onClick={() => handleProduce(11, "b1", "b2", "b3")}> <RoughNotation strokeWidth="2"  type="circle" animate="true"show="true" padding="10" ><span className="number-btn " id="b1" >2</span></RoughNotation></button>
