@@ -37,7 +37,7 @@ export default function Homepage(){
             <button onClick={() => handleSpecial(6, "b5", "b4", "b6")}> <RoughNotation strokeWidth="2"  type="circle" color="#000" animate="true"show="true" padding="10" ><span className="number-btn" id="b5" >3</span></RoughNotation></button>
             <button onClick={() => handleSpecial(5, "b6", "b4","b5" )}> <RoughNotation strokeWidth="2"  type="circle" color="#000" animate="true"show="true" padding="10" ><span className="number-btn" id="b6" >4</span></RoughNotation></button>
             <br/>
-            <RoughNotation strokeWidth="2"  type="underline" color="#000" animate="true"show="true" ><button onClick={handleSubmit}>Generate</button></RoughNotation>
+            <RoughNotation strokeWidth="2"  type="underline" color="#000" animate="true"show="true" ><button onClick={handleSubmit} id="generator"><h5>Generate</h5></button></RoughNotation>
           </main>
         </div>
     )
