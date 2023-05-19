@@ -56,11 +56,14 @@ export default function Generator(){
     }
     return(
         <Container id="generator">
-            <Row>
-        <NavLink to="/"><h1><RoughNotation strokeWidth="2"  type="underline" color="#000" animate="true"show="true" >Smoothie Generator</RoughNotation></h1></NavLink>
+        <Row>
+        <header>
+            <NavLink to="/"><h1><RoughNotation strokeWidth="2"  type="underline" color="#000" animate="true"show="true" >Smoothie Generator</RoughNotation></h1></NavLink>
+        </header>
         </Row>
             <Row>
                 <Col md={6} lg={4} sm={12} className="ingredients">
+                <section>
                 <div className="ingredient">
                     <img src={ice} alt="Ice icon" />
                 <h2>1 cup ice</h2>
@@ -71,24 +74,29 @@ export default function Generator(){
                     <h2>1/{measurment} cups {produce[index].name}</h2>
                     </div>
                 })}
+                </section>
                 </Col>
                 <Col md={6} lg={4} sm={12} className="ingredients pl-4">
-                <div className="ingredient">
-                <img src={icons[liquid[0].img]} alt={liquid[0].alt}/>
-                <h2>1 cup {liquid[0].name}</h2>
+                <section>
+                    <div className="ingredient">
+                        <img src={icons[liquid[0].img]} alt={liquid[0].alt}/>
+                    <h2>1 cup {liquid[0].name}</h2>
                 </div>
                 {special.map((e, index)=>{
                 return <div className="ingredient">
-                    <img src={icons[special[index].img]} alt={special[index].alt}/>
-                    <h2>{special[index].name}</h2>
-                    </div>
+                            <img src={icons[special[index].img]} alt={special[index].alt}/>
+                            <h2>{special[index].name}</h2>
+                        </div>
                 })}
+                </section>
                 </Col>
                 <Col lg={4} sm={12} id="smoothie" className="text-center">
                     <img style={styles} src={smoothie} className="img-fluid"/>
                 </Col>
             </Row>
-            <Row className="text-center"><button onClick={() => regenerate()}><RoughNotation strokeWidth="2"  type="circle" color="#000" animate="true"show="true" padding={15}><h1>Regenerate</h1></RoughNotation></button></Row>
+            <Row className="text-center">
+                <button onClick={() => regenerate()}><RoughNotation strokeWidth="2"  type="circle" color="#000" animate="true"show="true" padding={15}><h1>Regenerate</h1></RoughNotation></button>
+            </Row>
         </Container>
     )
 }
