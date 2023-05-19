@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import React from "react";
-import $ from 'jquery'; 
+import { NavLink } from "react-router-dom";
 import { RoughNotation } from "react-rough-notation";
 import "../styles/styles.css";
 import "../styles/homepage.css";
@@ -26,6 +26,7 @@ export default function Homepage(){
       }
     return(
       <div className="container center" id="homepage">
+        <NavLink to="/"><h1><RoughNotation strokeWidth="2"  type="underline" color="#000" animate="true"show="true" >Smoothie Generator</RoughNotation></h1></NavLink>
           <main>
           <h4>Fruit Amount:</h4>
            <button onClick={() => handleProduce(11, "b1", "b2", "b3")}> <RoughNotation strokeWidth="2"  type="circle" animate="true"show="true" padding="10" ><span className="number-btn " id="b1" >2</span></RoughNotation></button>

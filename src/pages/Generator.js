@@ -57,7 +57,10 @@ export default function Generator(){
     return(
         <Container id="generator">
             <Row>
-                <Col md={6} lg={4} className="ingredients">
+        <NavLink to="/"><h1><RoughNotation strokeWidth="2"  type="underline" color="#000" animate="true"show="true" >Smoothie Generator</RoughNotation></h1></NavLink>
+        </Row>
+            <Row>
+                <Col md={6} lg={4} sm={12} className="ingredients">
                 <div className="ingredient">
                     <img src={ice} alt="Ice icon" />
                 <h2>1 cup ice</h2>
@@ -69,7 +72,7 @@ export default function Generator(){
                     </div>
                 })}
                 </Col>
-                <Col md={6} lg={4} className="ingredients pl-4">
+                <Col md={6} lg={4} sm={12} className="ingredients pl-4">
                 <div className="ingredient">
                 <img src={icons[liquid[0].img]} alt={liquid[0].alt}/>
                 <h2>1 cup {liquid[0].name}</h2>
@@ -81,8 +84,8 @@ export default function Generator(){
                     </div>
                 })}
                 </Col>
-                <Col lg={4} id="smoothie" className="text-center">
-                    <img style={styles} src={smoothie}/>
+                <Col lg={4} sm={12} id="smoothie" className="text-center">
+                    <img style={styles} src={smoothie} className="img-fluid"/>
                 </Col>
             </Row>
             <Row className="text-center"><button onClick={() => regenerate()}><RoughNotation strokeWidth="2"  type="circle" color="#000" animate="true"show="true" padding={15}><h1>Regenerate</h1></RoughNotation></button></Row>

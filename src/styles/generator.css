@@ -2,10 +2,6 @@
     display: contents;
 }
 
-.ingredients{
-    margin-top: 20px !important;
-}
-
 .ingredient{
     margin-top: 10px;
 }
@@ -22,7 +18,6 @@
 }
 
 #smoothie img{
-    height: 50vh;
     border: 10px solid #fff;
 }
 
@@ -31,4 +26,9 @@
     all: unset;
     margin-top: 10px;
     font-family: Handwritten-Bold;
+}
+
+#generator{
+    height: auto;
+    margin: 25px 0px;
 }
