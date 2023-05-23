@@ -69,14 +69,14 @@ export default function Generator(){
                 <h2>1 cup ice</h2>
                 </div>
                 {produce.map((e, index)=>{
-                return <div className="ingredient pl-4">
+                return <div className="ingredient">
                     <img src={icons[produce[index].name]} alt={produce[index].alt}/>
                     <h2>1/{measurment} cups {produce[index].name}</h2>
                     </div>
                 })}
                 </section>
                 </Col>
-                <Col md={6} lg={4} sm={12} className="ingredients pl-4">
+                <Col md={6} lg={4} sm={12} className="ingredients">
                 <section>
                     <div className="ingredient">
                         <img src={icons[liquid[0].img]} alt={liquid[0].alt}/>
